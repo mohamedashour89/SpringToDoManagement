@@ -17,6 +17,6 @@ public class SampleController {
 
     @GetMapping
     public String printMessage() {
-        return sampleService.printMessage();  // Use the returned message from service
+        return sampleService.printMessage();  
     }
 }
