@@ -10,4 +10,10 @@ public class SampleService {
         System.out.println(message);  
         return message;
     }
+
+    public int addNumbers(int num1, int num2) {
+        return num1 + num2;
+    }
+
+
 }
