@@ -21,7 +21,4 @@ public class SampleController {
         return sampleService.printMessage();  
     }
 
-    public int addNumbers(@RequestParam int num1, @RequestParam int num2){
-        return sampleService.addNumbers(num1, num2);
-    }
 }
